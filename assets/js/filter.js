@@ -9,6 +9,10 @@ function renderTableRow(name, email, keywords) {
 
 window.onload = () => {
 
+  /**
+   * MVP works on a local json file.
+   * This parses the addresses to the table in the template.
+   */
   $.getJSON("emails.json", (json) => {
     $.each(json, (index, value) => {
       console.log(value);
@@ -16,6 +20,10 @@ window.onload = () => {
     });
   });
 
+  /**
+   * When the user types, hide everything else but the
+   * rows that match the search
+   */
   $("#contactinput").on('keyup', (e) => {
     var value = e.target.value.toLowerCase();
 
