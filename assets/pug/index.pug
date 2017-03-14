@@ -1,4 +1,23 @@
 extends layout
 
 block content
-  h1 Hello world
+  section.section#header
+    .container.has-text-centered
+      .heading
+        h1.title.is-1 Athene Angels Contact Bank
+  section.section#search
+    .container
+      .heading
+        h2.title.is-4 Search for contacts
+
+      input(type="text" id="contactinput").input
+
+  section.section#results
+    .container
+      table.table
+        thead
+          tr
+            th Name
+            th Email
+            th Keywords
+        tbody
