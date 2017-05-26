@@ -1,5 +1,13 @@
 # Contact bank
 
+## Dev dependencies
+
+Must have Gulp installed.
+
+``` bash
+npm install -g gulp
+```
+
 ## Usage
 ``` bash
 git clone https://github.com/coumbole/contactbank.git
@@ -13,8 +21,7 @@ A new browser window should open at localhost:3001.
 
 ## TODO
 
-- [ ] Should display actual data that's been collected from Athene Angels.
-
+- [ ] Should display actual data that's been collected from Athene Angels. The data is in google drive (Athene Hallitus '17 folder)
 
 ## About
 
