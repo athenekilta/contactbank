@@ -16,7 +16,10 @@ npm install
 gulp
 ```
 
-A new browser window should open at localhost:3001.
+* A new browser window should open at localhost:3000
+* changing /assets/pug/* or /assets/scss/* regenerates css/main.min.css and index.html -file
+
+
 
 
 ## TODO
